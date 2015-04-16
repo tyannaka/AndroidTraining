@@ -20,6 +20,16 @@
 
     <!-- TODO: Button6 を 画面中央に配置する -->
 
+    <Button
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="6"
+        android:textSize="16sp" />
+
+
     <!-- TODO: Button7 を画面左下に配置する -->
     <!-- TODO: Button7 の右に 1 つボタンを並べる -->
     <!-- TODO: Button7 の上に 1 つボタンを並べる -->

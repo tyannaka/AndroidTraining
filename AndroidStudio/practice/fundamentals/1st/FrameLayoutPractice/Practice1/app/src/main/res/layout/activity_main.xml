@@ -8,11 +8,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
     <ImageView
+        android:id="@+id/Iv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher"/>
     <!-- TODO: 右上端に寄せた ImageView を配置する -->
+    <ImageView
+        android:id="@+id/Iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_launcher"/>
+
     <!-- TODO: 左下端に寄せた ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/ic_launcher"
+        />
+
     <!-- TODO: 右下端に寄せた ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_launcher"
+        />
+
     <!-- TODO: センタリングした ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"/>
 </FrameLayout>
