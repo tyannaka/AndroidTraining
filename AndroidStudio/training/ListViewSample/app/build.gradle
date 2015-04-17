@@ -1,22 +1,27 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 17
+        applicationId "com.example.usr0200467.listviewsample"
+        minSdkVersion 22
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
     }
-
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.mcxiaoke.volley:library:1.0.15'
+    compile 'com.google.code.gson:gson:1.7.2'
+
 }
